@@ -1,0 +1,40 @@
+.App-cart {
+  display: block;
+  width: 100%;
+  padding: 0 10px;
+}
+
+.App-cart-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border: 1px solid #eee;
+  border-radius: 3px;
+  margin: 10px;
+  margin-right: 123px;
+}
+
+.App-cart-item input {
+  align-self: center;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
+.App-cart-delete {
+  width: 40px;
+  height: 40px;
+  background: url("../../helpers/delete.svg") no-repeat center;
+  background-size: 40px 40px;
+  margin-left: 20px;
+}
+
+.App-cart-wrapper {
+  display: flex;
+}
+
+.App-cart-empty {
+  position: absolute;
+  padding: 50px 100px;
+  border: 2px dashed #eee;
+  border-radius: 5px;
+}
